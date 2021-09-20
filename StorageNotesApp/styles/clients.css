@@ -1,0 +1,54 @@
+input {
+    border-style: none;
+    padding: 4px;
+    width: 100%;
+}
+
+.client {
+    border: 1px solid #FBC829;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+    background-color: #EDEEF0;
+}
+
+article {
+    margin-top: 15px;
+}
+
+.cl {
+    display: inline;
+    margin: 5px;
+}
+
+.client:hover,
+.client:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+div > input.cl {
+    width: 300px;
+    border: 1px solid #FBC829;
+    border-radius: 5px;
+}
+
+.msg {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.addCompany {
+    margin-left: 50% ;
+    position: fixed;
+}
+button{
+    cursor: pointer;
+}

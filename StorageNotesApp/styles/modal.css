@@ -1,0 +1,89 @@
+#modalEdit, #modalAdd, #modalEditProduct, #modalAddProduct {
+    border: 1px solid #FBC829;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+    /*width: fit-content;*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 90px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content, .modal-content2 {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 25%;
+    border-radius: 5px;
+    min-width: 150px;
+    min-height: 600px;
+}
+
+.clientInfo > input, .productInfo > input {
+    text-align: left;
+    margin: 0px 5px 5px 0px;
+    width: 95%;
+    border: 1px solid #FCC818;
+    border-radius: 2px;
+}
+
+.clientInfo > label, .productInfo > label {
+    display: inline-block;
+    padding: 2px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clientInfo > input.sub, .productInfo > input.sub{
+    background-color: #5CC35A;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 5px 5px;
+    /*width: 150px;*/
+    width: 50%;
+}
+.del{
+    background-color: red;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 5px 5px;
+    width: 50%;
+}
+.comment{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px ;
+    max-height: 70px;
+}
+
+.sub{
+    cursor: pointer;
+}

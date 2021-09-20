@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+@font-face {
+    font-family: Roboto, sans-serif;
+}
+
+div > p {
+    display: inline;
+    font-weight: 1.5;
+    font-size: 1.5rem;
+}
+
+nav {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav > a {
+    margin: 15px 15px 15px 15px;
+}
+
+.btn {
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}

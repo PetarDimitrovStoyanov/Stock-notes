@@ -1,0 +1,6 @@
+.loader-spinner>img{
+    position: relative;
+    top: 50px;
+    left: 48%;
+    width: 80px;
+}

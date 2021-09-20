@@ -1,0 +1,20 @@
+footer {
+    position: fixed;
+    padding: 5px 5px 5px 5px;
+    width: 98.4%;
+    height: 2%;
+    background: #1abc9c;
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+    bottom: 0px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer:hover{
+    padding: 15px 15px 15px 15px;
+}

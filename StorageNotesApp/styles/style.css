@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+@font-face {
+    font-family: Roboto, sans-serif;
+}
+
+html{
+    min-width: 1173px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+
+    background-image: url("../pictures/backgr4.jpg");
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    min-height: 100%;;
+}
+
+.info {
+    color: black;
+}
+
+.btns{
+    display: inline;
+    margin-right: 35px;
+}
+
+
+
+
